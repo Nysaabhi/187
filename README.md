@@ -7829,6 +7829,7 @@ style.textContent = `
   width: 100%;
   max-width: 640px; /* Drastically reduced width */
   margin: 0 auto;
+  margin-left: 540px;
   padding: 8px; /* Minimal padding */
 }
 
@@ -8103,16 +8104,25 @@ style.textContent = `
     font-size: 11px;
     min-width: auto;
   }
-}
-   
+
 /* Media Queries for Mobile Devices */
 @media (max-width: 480px) {
   .vehicle-item {
-    width: 80vw;
+    width: 82vw;
     padding: 12px;
     border-radius: 12px;
     margin-bottom: 12px;
+    margin-left: -540px;
   }
+
+  .automotive-response p {
+  font-size: 14px; /* Minimal font size */
+  font-weight: 600;
+  color: #FFD700;
+  margin-bottom: 6px;
+      margin-left: -1280px;
+  text-align: center;
+}
 
   /* Automotive Carousel Styles */
 .automotive-carousel {
